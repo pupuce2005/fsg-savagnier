@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200&display=swap');
+*{
+    box-sizing: border-box;
+}
+
+body {
+    position: relative;
+    min-height: 100vh;
+    font-family: sans-serif;
+    margin: auto;
+    margin-top: 2vh;
+    margin-left: 10vw;
+    margin-bottom: 20vh;
+}
+
+nav {
+    cursor: default;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    background-color: #017cec;
+    border-radius: 2px;
+    max-width: 80vw;
+    border-radius: 10px; /* Ajout du border-radius */
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.5);
+}
+
+nav a {
+    color: #ffffff;
+    display: inline-block;
+    font-size: 32px;
+    padding: 1vw;
+    font-family: "Montserrat", sans-serif;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #ffed03;
+}
+
+main{
+    display: flex;
+}
+
+section {
+    width: 55vw;
+    float: left;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.article img{
+    margin: 3vw;
+    width: 20vw;
+}
+
+
+h3 a{
+    color: #000;
+    text-decoration: none;
+}
+
+aside {
+    width: 20vw;
+    margin-left: 5vw;
+    margin-right: 10vw;
+    float: right;
+}
+
+#slideshow {
+    position: relative;
+    width: 20vw; /* Ajustez la hauteur selon vos besoins */
+    overflow: hidden;
+}
+
+.slide {
+    display: none;
+    width: 100%;
+    height: auto;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 20px;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+footer {
+    position:fixed;
+    bottom: 0;
+    width: 80vw;
+    background-color: #017cec;
+    color: #ffffff;
+    text-align: center;
+    padding: 0px;
+    margin-top: auto; /* Cela pousse le footer vers le bas de la page */
+    margin-bottom: 1vh;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 10px; /* Ajout du border-radius */
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.5);
+}
+
+footer div {
+    flex: 1;
+}
+
+footer div h3 {
+    border-bottom: 2px solid #fff;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+footer div p {
+    margin: 5px 0;
+}
+
+footer div p a {
+    color: #ffffff;
+    text-decoration: none;
+}
