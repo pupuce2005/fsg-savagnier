@@ -1,5 +1,5 @@
 {
-  "name": "demo-htmx",
+  "name": "mon-site-htmx",
   "version": "1.0.0",
   "main": "server.js",
   "scripts": {
